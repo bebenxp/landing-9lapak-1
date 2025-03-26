@@ -35,14 +35,14 @@ export default function Home() {
       <div className="bg-neutral-900 text-neutral-100 min-h-screen">
         <img src="/logo-gradient.png" className="w-52 mx-auto py-10" alt="" />
 
-        <div className="mx-auto px-8">
+        <div className="mx-auto px-4">
           <div className="grid grid-cols-1 gap-4 md:items-center">
             <div className="bg-neutral-800 p-8 rounded-2xl">
               <h1 className="block text-3xl font-bold text-gray-800 dark:text-white">
                 Main Bentar Langsung Cuan di Situs{" "}
                 <span className="text-teal-600 font-black">9LAPAK</span>
               </h1>
-              <p className="mt-3 text-sm leading-7 text-neutral-200">
+              <p className="mt-3 text-neutral-400 text-sm leading-6">
                 Temukan keseruan tanpa batas di 9lapak, situs judi online paling
                 gacor yang siap memberikan kemenangan maksimal setiap hari
               </p>
@@ -89,7 +89,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-neutral-900 px-8">
+        <div className="bg-neutral-900 px-4">
           <div className="mx-auto bg-neutral-800 p-8 rounded-2xl mt-4 text-left">
             <h1 className="font-extrabold leading-[3rem] text-white text-3xl">
               Situs Slot Terbaik
