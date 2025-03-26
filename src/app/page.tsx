@@ -36,20 +36,22 @@ export default function Home() {
         <img src="/logo-gradient.png" className="w-52 mx-auto py-10" alt="" />
 
         <div className="mx-auto px-8">
-          <div className="grid grid-cols-1 gap-4 md:gap-8 xl:gap-20 md:items-center">
-            <div>
-              <h1 className="block text-5xl font-bold text-gray-800 dark:text-white">
+          <div className="grid grid-cols-1 gap-4 md:items-center">
+            <div className="bg-neutral-800 p-8 rounded-2xl">
+              <h1 className="block text-3xl font-bold text-gray-800 dark:text-white">
                 Main Bentar Langsung Cuan di Situs{" "}
-                <span className="text-blue-600 font-black">9LAPAK</span>
+                <span className="text-teal-600 font-black">9LAPAK</span>
               </h1>
-              <p className="mt-3 text-lg text-gray-800 dark:text-neutral-400">
+              <p className="mt-3 text-sm leading-7 text-neutral-200">
                 Temukan keseruan tanpa batas di 9lapak, situs judi online paling
                 gacor yang siap memberikan kemenangan maksimal setiap hari
               </p>
+            </div>
 
-              <div id="button-cta" className="mt-7 grid gap-3 w-full">
+            <div className="bg-neutral-800 p-8 rounded-2xl">
+              <div id="button-cta" className="grid gap-3 w-full">
                 <a
-                  className="py-5 px-4 inline-flex justify-center items-center gap-x-2 text-LG font-medium rounded-xl active:scale-95 transition-all border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-hidden focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
+                  className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-LG font-medium rounded-xl active:scale-95 transition-all bg-red-600 text-white hover:bg-red-700 focus:outline-hidden focus:bg-red-700 disabled:opacity-50 disabled:pointer-events-none"
                   href={linkUtama}
                 >
                   Masuk / Daftar
@@ -69,7 +71,7 @@ export default function Home() {
                   </svg>
                 </a>
                 <a
-                  className="py-5 px-4 inline-flex justify-center items-center gap-x-2 text-LG font-medium rounded-xl active:scale-95 transition-all border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                  className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-LG font-medium rounded-xl active:scale-95 transition-all bg-teal-600 text-white hover:bg-teal-700 shadow-2xs focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none"
                   href={linkRtp}
                 >
                   RTP Update
@@ -77,9 +79,9 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="relative">
+            <div className="bg-neutral-800 p-8 rounded-2xl">
               <img
-                className="w-full mt-8 rounded-2xl"
+                className="w-full rounded-xl"
                 src="/17.webp"
                 alt="Hero Image"
               />
@@ -88,15 +90,15 @@ export default function Home() {
         </div>
 
         <div className="bg-neutral-900 px-8">
-          <div className="mx-auto pt-24 pb-10 text-left">
-            <h1 className="font-extrabold leading-[3rem] text-white text-5xl">
-              9LAPAK <br /> Slot Gacor
+          <div className="mx-auto bg-neutral-800 p-8 rounded-2xl mt-4 text-left">
+            <h1 className="font-extrabold leading-[3rem] text-white text-3xl">
+              Situs Slot Terbaik
             </h1>
-            <p className="font-semibold leading-[2rem] mt-3 text-2xl">
+            <p className="font-semibold leading-8 mt-2 text-xl">
               Lapaknya para sultan, bikin Cuan auto Jeckpot setiap hari!
             </p>
             <div className="max-w-4xl">
-              <p className="mt-5 text-neutral-400 text-md">
+              <p className="mt-5 text-neutral-400 text-sm leading-6">
                 Selamat datang di 9lapak, situs judi online paling gacor yang
                 menjadi pilihan utama bagi para pecinta permainan taruhan di
                 Indonesia. Di 9lapak, Anda bisa menikmati berbagai pilihan game
@@ -104,7 +106,7 @@ export default function Home() {
                 lagi, semuanya dirancang untuk memberikan peluang menang yang
                 lebih besar.
               </p>
-              <p className="mt-5 text-neutral-400 text-md">
+              <p className="mt-5 text-neutral-400 text-sm leading-6">
                 Dengan RTP tinggi dan jackpot terbesar yang tersedia setiap
                 hari, 9lapak gacor selalu menjadi destinasi favorit bagi para
                 pemain yang ingin merasakan pengalaman judi online yang seru dan
@@ -113,7 +115,7 @@ export default function Home() {
                 customer service profesional yang siap membantu Anda 24 jam
                 nonstop.
               </p>
-              <p className="mt-5 text-neutral-400 text-md">
+              <p className="mt-5 text-neutral-400 text-sm leading-6">
                 Bergabunglah sekarang di 9lapak, dan nikmati keseruan bermain di
                 situs judi online paling gacor dan terpercaya di Indonesia.
                 Jangan lewatkan kesempatan meraih jackpot besar bersama 9lapak
@@ -125,8 +127,8 @@ export default function Home() {
 
         <div className="flex items-center my-8 px-4">
           <div className="flex-grow border-t border-neutral-700"></div>
-          <span className="mx-4 text-neutral-100 text-sm uppercase">
-            Kerjasama
+          <span className="mx-4 text-neutral-100 text-md">
+            Provider Support
           </span>
           <div className="flex-grow border-t border-neutral-700"></div>
         </div>
@@ -150,7 +152,7 @@ export default function Home() {
             <div className="my-4">
               <div className="flex gap-x-3">
                 <a
-                  className="flex-1 py-3.5 px-4 inline-flex justify-center items-center gap-x-2 text-lg font-medium rounded-xl active:scale-95 transition-all border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-hidden focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
+                  className="flex-1 py-3 px-4 inline-flex justify-center items-center gap-x-2 font-medium rounded-xl active:scale-95 transition-all border border-transparent bg-red-600 text-white hover:bg-red-700 focus:outline-hidden focus:bg-red-700 disabled:opacity-50 disabled:pointer-events-none"
                   href={linkUtama}
                 >
                   Masuk
@@ -170,7 +172,7 @@ export default function Home() {
                   </svg>
                 </a>
                 <a
-                  className="flex-1 py-3.5 px-4 inline-flex justify-center items-center gap-x-2 text-lg font-medium rounded-xl active:scale-95 transition-all border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                  className="flex-1 py-3 px-4 inline-flex justify-center items-center gap-x-2 font-medium rounded-xl active:scale-95 transition-all border border-transparent bg-teal-600 text-white hover:bg-teal-700 focus:outline-hidden focus:bg-teal-700 disabled:opacity-50 disabled:pointer-events-none"
                   href={linkRtp}
                 >
                   RTP Update
