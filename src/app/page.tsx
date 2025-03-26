@@ -40,7 +40,7 @@ export default function Home() {
             <div className="bg-neutral-800 p-8 rounded-2xl">
               <h1 className="block text-3xl font-bold text-gray-800 dark:text-white">
                 Main Bentar Langsung Cuan di Situs{" "}
-                <span className="text-teal-600 font-black">9LAPAK</span>
+                <span className="text-teal-600 font-black">9Lapak!</span>
               </h1>
               <p className="mt-3 text-neutral-400 text-sm leading-6">
                 Temukan keseruan tanpa batas di 9lapak, situs judi online paling
