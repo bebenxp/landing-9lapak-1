@@ -27,8 +27,8 @@ export default function Home() {
     { id: 24, image: "/provider/24.webp" },
   ];
 
-  const linkUtama = "https://9lapak2.site";
-  const linkRtp = "https://pola9lapak.online";
+  const linkUtama = "https://9lapak7.xyz";
+  const linkRtp = "https://pola9lapak.shop";
 
   return (
     <>
@@ -53,6 +53,7 @@ export default function Home() {
                 <a
                   className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-LG font-medium rounded-xl active:scale-95 transition-all bg-red-600 text-white hover:bg-red-700 focus:outline-hidden focus:bg-red-700 disabled:opacity-50 disabled:pointer-events-none"
                   href={linkUtama}
+                  target="_blank"
                 >
                   Masuk / Daftar
                   <svg
@@ -73,6 +74,7 @@ export default function Home() {
                 <a
                   className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-LG font-medium rounded-xl active:scale-95 transition-all bg-teal-600 text-white hover:bg-teal-700 shadow-2xs focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none"
                   href={linkRtp}
+                  target="_blank"
                 >
                   RTP Update
                 </a>
@@ -94,9 +96,9 @@ export default function Home() {
             <h1 className="font-extrabold leading-[3rem] text-white text-3xl">
               Situs Slot Terbaik
             </h1>
-            <p className="font-semibold leading-8 mt-2 text-xl">
+            <h2 className="font-semibold leading-8 mt-2 text-xl">
               Lapaknya para sultan, bikin Cuan auto Jeckpot setiap hari!
-            </p>
+            </h2>
             <div className="max-w-4xl">
               <p className="mt-5 text-neutral-400 text-sm leading-6">
                 Selamat datang di 9lapak, situs judi online paling gacor yang
@@ -154,6 +156,7 @@ export default function Home() {
                 <a
                   className="flex-1 py-3 px-4 inline-flex justify-center items-center gap-x-2 font-medium rounded-xl active:scale-95 transition-all border border-transparent bg-red-600 text-white hover:bg-red-700 focus:outline-hidden focus:bg-red-700 disabled:opacity-50 disabled:pointer-events-none"
                   href={linkUtama}
+                  target="_blank"
                 >
                   Masuk
                   <svg
@@ -174,6 +177,7 @@ export default function Home() {
                 <a
                   className="flex-1 py-3 px-4 inline-flex justify-center items-center gap-x-2 font-medium rounded-xl active:scale-95 transition-all border border-transparent bg-teal-600 text-white hover:bg-teal-700 focus:outline-hidden focus:bg-teal-700 disabled:opacity-50 disabled:pointer-events-none"
                   href={linkRtp}
+                  target="_blank"
                 >
                   RTP Update
                 </a>

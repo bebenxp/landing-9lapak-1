@@ -9,9 +9,27 @@ const montserratFont = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "9LAPAK SLOT GACOR",
+  title: "TOGEL TERLENGKAP | KELUARAN SDY TERPERCAYA | 9LAPAK",
   description:
-    "9Lapak adalah platform game populer di Indonesia dengan tampilan terbaik. Mainkan berbagai jenis game dengan RTP tinggi dan gacor, mulai dari slot, skill,...",
+    "9Lapak adalah platform game populer di Indonesia dengan tampilan terbaik. Mainkan berbagai jenis game dengan RTP tinggi dan gacor, mulai dari slot, skill...",
+  alternates: {
+    canonical: "https://9lapak7.xyz/",
+  },
+  keywords: [
+    "togel terlengkap",
+    "keluaran sdy terpercaya",
+    "9lapak",
+    "platform game indonesia",
+    "game rtp tinggi",
+    "game gacor",
+    "slot online",
+    "skill games",
+    "bandar togel",
+    "data sdy",
+    "prediksi sdy",
+    "sdy hari ini",
+    "agen togel terpercaya",
+  ],
 };
 
 export default function RootLayout({
