@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "9Lapak adalah platform game populer di Indonesia dengan tampilan terbaik. Mainkan berbagai jenis game dengan RTP tinggi dan gacor, mulai dari slot, skill...",
   alternates: {
-    canonical: "https://9lapak7.xyz/",
+    canonical: "https://9lapakgacor2.xyz/",
   },
   keywords: [
     "togel terlengkap",
